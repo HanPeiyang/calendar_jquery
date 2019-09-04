@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./jquery.min.js"></script>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="./bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <script type="text/javascript" src="./bootstrap.min.js"></script>
+    <script type="text/javascript" src="./bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript" src="./bootstrap-datetimepicker.zh-CN.js"></script>
+    <link rel="stylesheet" href="./calendar.css">
+    <title>日历</title>
+</head>
+
+<body>
+    <div class="page_wrap">
+        <div class="calendar">
+            <div class="calendar_header">
+                <div class="first_header">
+                    <div class="switch_year" onclick="preMonth()">
+                        <</div> <div class="current_year"><input type="text" value="" class="form-control date_input"  onfocus="this.blur()" id="timepicker"> </div>
+                    <div class="switch_year" onclick="nextMonth()">></div>
+                </div>
+                <div class="weekday_header">
+                    <span class="each_weekday">Mon</span>
+                    <span class="each_weekday">Tues</span>
+                    <span class="each_weekday">Wed</span>
+                    <span class="each_weekday">Thur</span>
+                    <span class="each_weekday">Fri</span>
+                    <span class="each_weekday">Sat</span>
+                    <span class="each_weekday">Sun</span>
+                </div>
+            </div>
+            <div class="calendar_body">
+                <div class="aside_hint">
+                    <div class="each_hint">
+                        <span>上午</span>
+                        <span>下午</span>
+                    </div>
+                    <div class="each_hint">
+                        <span>上午</span>
+                        <span>下午</span>
+                    </div>
+                    <div class="each_hint">
+                        <span>上午</span>
+                        <span>下午</span>
+                    </div>
+                    <div class="each_hint">
+                        <span>上午</span>
+                        <span>下午</span>
+                    </div>
+                    <div class="each_hint">
+                        <span>上午</span>
+                        <span>下午</span>
+                    </div>
+                    <div class="each_hint">
+                        <span>上午</span>
+                        <span>下午</span>
+                    </div>
+                    
+                </div>
+                <div class="day_wrap">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./calendar.js">
+</script>
+
+</html>

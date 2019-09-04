@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.page_wrap{
+    font-size: 14px;
+    height: 800px;
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.calendar{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.calendar_header{
+    height: 10%;
+    width:100%;
+    border-bottom: 3px solid #278db9;
+    color: #278db9;
+}
+.first_header{
+    width:100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.weekday_header{
+    width:100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+    
+}
+.each_weekday{
+    width: 13.5%;
+    text-align: center;
+}
+.current_year{
+    text-align: center;
+    width:20%;
+}
+.current_year .date_input{
+    height: 100%;
+    width: 100%;
+    border:0;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    cursor: pointer;
+}
+.switch_year{
+    cursor: pointer;
+}
+.calendar_body{
+    position: relative;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.aside_hint{
+    height: 100%;
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.each_hint{
+    width: 100%;
+    height: 16%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.each_hint span{
+    font-size: 12px;
+    color: #239599;
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.day_wrap{
+    height: 100%;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.each_day{
+    cursor: default;
+    width: 13.9%;
+    height: 16.5%;
+    border: solid 1px lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+}
+.day_header{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.day_bottom{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.am,.pm{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 1px lightgray;
+    cursor: pointer;
+}
+
+.current_day{
+    font-weight: bold;
+    color: #239599;
+}
+.other_month{
+    color: lightgray !important;
+}
+
